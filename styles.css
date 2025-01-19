@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  /* nav related styles */
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 80px;
+    align-items:baseline ;
+  }
+  .nav-info{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600; 
+  }
+  .nav-left{
+  font-size: 1.8rem;
+  font-weight: 700;
+  }
+  .nav-info li{
+    list-style-type: none;
+    padding : 20px
+    
+  }
+  .nav-info li a{
+    color: black;
+    text-decoration: none;
+  }
+  .nav-info li a:hover{
+    
+    color: darkviolet;
+  }
+  /* header */
+  .header{
+    display: flex;
+    margin: 0 80px;
+   
+  }
+  .header-info{
+    flex-direction: column;
+   
+  }
+.header-pic{
+  position: relative;
+  transform:translateX(200px);
+}
+.image1{
+  position: absolute;
+   z-index: 2;
+}
+.image2{
+  position: absolute;
+  z-index: 1;
+  
+}
+.header-info1{
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+.header-info2{
+  font-size: 1rem;
+  font-weight: 600;
+}
+/* sponsor */
+.sponsor-container{
+  margin-top: 270px;
+  display: flex;
+  justify-content: space-around;
+  
+}

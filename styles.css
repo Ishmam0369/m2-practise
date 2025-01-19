@@ -30,8 +30,8 @@
     text-decoration: none;
   }
   .nav-info li a:hover{
-    
-    color: darkviolet;
+    cursor: pointer;
+   
   }
   /* header */
   .header{
@@ -69,5 +69,83 @@
   margin-top: 270px;
   display: flex;
   justify-content: space-around;
+ padding:  0px 120px;
+}
+/* popular collection */
+#popular-collection{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: rgb(58, 58, 58);
+  text-align: center;
   
 }
+.popular-collection{
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+  gap: 40px;
+  margin: 100px 100px;
+  justify-content: baseline;
+  align-items: center;
+}
+
+ .popular-collection-9:hover{
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+ .popular-collection-1:hover{
+  cursor: pointer;
+  background-color:  whitesmoke;
+  
+}
+ .popular-collection-2:hover{
+  cursor: pointer;
+  background-color:  whitesmoke;
+}
+ .popular-collection-3:hover{
+  cursor: pointer;
+  background-color:  whitesmoke;
+}
+ .popular-collection-4:hover{
+  cursor: pointer;
+  background-color:  whitesmoke;
+}
+ .popular-collection-5:hover{
+  cursor: pointer;
+  background-color:  whitesmoke;
+}
+ .popular-collection-6:hover{
+  cursor: pointer;
+  background-color:  whitesmoke;
+}
+ .popular-collection-7:hover{
+  cursor: pointer;
+  background-color:  whitesmoke;
+}
+ .popular-collection-8:hover{
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+.popular-collection-1{
+  padding: 60px;
+  
+  
+}
+.popular-collection-4{
+  padding: 60px;
+  
+}
+.popular-collection-7{
+  padding: 60px;
+  
+}
+.popular-collection-1{box-shadow:  8px 16px 19px 12px  rgba(0, 0, 0, 0.15);
+                          }
+.popular-collection-2{box-shadow:  8px 16px 19px 12px rgba(0, 0, 0, 0.15);padding: 60px;}
+.popular-collection-3{box-shadow:  8px 16px 19px 12px rgba(0, 0, 0, 0.15);padding: 60px;}
+.popular-collection-4{box-shadow:  8px 16px 19px 12px rgba(0, 0, 0, 0.15);}
+.popular-collection-5{box-shadow:  8px 16px 19px 12px rgba(0, 0, 0, 0.15);padding: 60px;}
+.popular-collection-6{box-shadow:  8px 16px 19px 12px rgba(0, 0, 0, 0.15);padding: 60px;}
+.popular-collection-7{box-shadow:  8px 16px 19px 12px rgba(0, 0, 0, 0.15);}
+.popular-collection-8{box-shadow:  8px 16px 19px 12px rgba(0, 0, 0, 0.15);padding: 60px;}
+.popular-collection-9{box-shadow:  8px 16px 19px 12px rgba(0, 0, 0, 0.15);padding: 60px;}

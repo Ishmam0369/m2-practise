@@ -11,10 +11,16 @@
     margin: 20px 80px;
     align-items:baseline ;
   }
+  .button:hover{
+    cursor: pointer;
+    color: yellow;
+    background-color: darkmagenta;
+  }
   .nav-info{
     display: flex;
     font-size: 1rem;
     font-weight: 600; 
+    
   }
   .nav-left{
   font-size: 1.8rem;
